@@ -25,6 +25,7 @@ BuildRequires:  pkgconfig(glib-2.0) >= 2.21.6
 BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gio-2.0) >= 2.24.0
 BuildRequires:  pkgconfig(libgcrypt)
+BuildRequires:  pkgconfig(libsoup-2.4)
 BuildRequires:  gettext
 BuildRequires:  perl(XML::Parser)
 BuildRequires:  intltool
