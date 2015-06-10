@@ -26,6 +26,7 @@ BuildRequires:  pkgconfig(gthread-2.0)
 BuildRequires:  pkgconfig(gio-2.0) >= 2.24.0
 BuildRequires:  pkgconfig(libgcrypt)
 BuildRequires:  pkgconfig(libsoup-2.4)
+BuildRequires:  pkgconfig(libquvi-0.9)
 BuildRequires:  gettext
 BuildRequires:  perl(XML::Parser)
 BuildRequires:  intltool
@@ -84,6 +85,7 @@ rm -rf %{buildroot}
 # >> files
 %doc AUTHORS COPYING.LIB NEWS README
 %{_libdir}/*.so.*
+%{_libexecdir}/totem-pl-parser-videosite
 # << files
 
 %files devel

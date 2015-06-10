@@ -1,4 +1,7 @@
 * Wed Jun 10 2015 Andres Gomez <andres.gomez@jolla.com> - 3.10.5
+- Added videosite parser support via libquvi
+
+* Wed Jun 10 2015 Andres Gomez <andres.gomez@jolla.com> - 3.10.5
 - Update to 3.10.5
 
 * Mon Dec 10 2012 Marko Saukko <marko.saukko@jollamobile.com> - 2.30.0
