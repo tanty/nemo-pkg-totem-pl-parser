@@ -56,7 +56,7 @@ echo "EXTRA_DIST = missing-gtk-doc" > gtk-doc.make
 NOCONFIGURE=1 REQUIRED_PKG_CONFIG_VERSION=0.17.1 REQUIRED_AUTOMAKE_VERSION=1.9 USE_GNOME2_MACROS=1 . gnome-autogen.sh --disable-gtk-doc
 # << build pre
 
-%configure --disable-static
+%configure --disable-static --disable-introspection
 make %{?jobs:-j%jobs}
 
 # >> build post
